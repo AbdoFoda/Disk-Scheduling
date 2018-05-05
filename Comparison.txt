@@ -1,0 +1,10 @@
+The difference of performance in such algorithms:
+The Fist come first served algorithm is the worst among them.
+because it depends on the sequence of the arriving disk-access requests,
+which is unknown of course to the algorithm, in brief sequence of requests  :
+1-	Increasing or decreasing : better performance
+2-	Randomized : bad performance
+
+The Shortest seek time algorithm can be considered to be the best in the case,
+of the randomization of the requests because it picks the shortest ( closer )
+seeking time in each disk-access 
